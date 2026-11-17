@@ -1,0 +1,306 @@
+    1  curl -I https://google.com
+    2  wget https://www.google.com
+    3  ls -l
+    4  ls -ld
+    5  whoami 
+    6  history
+    7  wsl -l -v
+    8  yes
+    9  mkdir ~/devops-project
+   10  ls
+   11  pwd
+   12  ls
+   13  ls -a
+   14  mkdir devops
+   15  ls
+   16  cd devops 
+   17  pwd
+   18  cd ..
+   19  pwd
+   20  cd devops
+   21  pwd
+   22  cd ~/devops
+   23  ls
+   24  touch notes.txt
+   25  ls
+   26  echo "I am learning Linux for Devops" > notes.txt
+   27  cat notes.txt
+   28  echo " I will practice Linux every day" >> notes.txt
+   29  cat notes.txt
+   30  cp note.txt backup.txt
+   31  cp notes.txt backup.txt
+   32  ls
+   33  cat backup.txt
+   34  mv backup.txt notes_backup.txt
+   35  ls
+   36  rm notes_backup.txt
+   37  ls
+   38  mkdir test
+   39  ls
+   40  rmdir test
+   41  ls
+   42  mkdir test
+   43  ls
+   44  touch test/hello.txt
+   45  ls
+   46  rmdir test
+   47  ls test
+   48  cd test 
+   49  pwp
+   50  pwd
+   51  cd .
+   52  pwd
+   53  cd ..
+   54  pwd
+   55  cd .
+   56  pwd
+   57  ls
+   58  ls test
+   59  cd ~
+   60  pwd
+   61  cd -
+   62  pwd
+   63  cd notes.txt
+   64  cat notes.txt
+   65  ls /
+   66  ls /home
+   67  ls /etc
+   68  ls /var
+   69  ls /var/log
+   70  sudo less /var/log/dpkg.log
+   71  ls /tmp
+   72  less notes.txt
+   73  find . -name "notes.txt"
+   74  grep "Linux" notes.txt
+   75  grep -R "Linux" .
+   76  wc -l notes.txt
+   77  head notes.txt
+   78  tail notes.txt
+   79  seq 1 5 > numbers.txt
+   80  head -n 2 numbers.txt
+   81  tail -n 2 numbers.txt
+   82  tail -n 3 numbers.txt
+   83  sort -r numbers.txt
+   84  sort -r notes.txt
+   85  cat -n notes.txt
+   86  sort -r notes.txt
+   87  LC_ALL=C sort -r notes.txt
+   88  cat -A notes.txt
+   89  sort -r numbers.txt
+   90  LC_ALL=C sort -r notes.txt
+   91  printf "apple\nbannana\ncherry\n" | sort-r
+   92  printf "apple\nbannana\ncherry\n" |sort-r
+   93  printf "apple\nbanana\ncherry\n" | sort -r
+   94  whoami
+   95  clear
+   96  history
+   97  file notes.txt
+   98  which ls
+   99  df -h
+  100  pwd
+  101  ls
+  102  touch script.sh
+  103  ls
+  104  ls -l script.sh
+  105  chmod +x script.sh
+  106  ls -l script.sh
+  107  ./ script.sh
+  108  ./script.sh
+  109  ls
+  110  ./script.sh
+  111  echo 'echo Hello Bhaskar' > script.sh
+  112  ls
+  113  cat script.sh
+  114  du -sh
+  115  uname -a
+  116  ps
+  117  free -h
+  118  uptime
+  119  ip addr
+  120  ping -c4 google.com
+  121  ping -c 10 google.com
+  122  pwd
+  123  l -ld
+  124  ls -l index.html
+  125  ls -ld /home/bhaskar/devops
+  126  touch test-write.txt
+  127  ls -l test-write.txt
+  128  wget -0 google.html https://www.google.com
+  129  wget -O google.html https://www.google.com
+  130  ls -l google.html
+  131  less google.html
+  132  history
+  133  id
+  134  groups
+  135  sudo whoami
+  136  passwd
+  137  uname -r
+  138  wsl -l -v
+  139  sudo whoami
+  140  cd ~/devops
+  141  ls -l
+  142  chmod +x  notes.txt
+  143  ls -l notes.txt
+  144  chmod -x notes.txt
+  145  ls -l notes.txt
+  146  chmod 644 notes.txt
+  147  ls - l notes.txt
+  148  ls -l notes.txt
+  149  chmod 755 notes.txt
+  150  ls -l notes.txt
+  151  touch owner-test.txt
+  152  ls -l owner-test.txt
+  153  sudo chown root:root owner test.txt
+  154  sudo chown root:root owner-test.txt
+  155  ls -l owner-test.txt
+  156  sudo chown bhaskar:bhaskar owner-test.txt
+  157  ls -l owner-test.txt
+  158  groups
+  159  id 
+  160  sudo adduser testuser
+  161  id
+  162  id testuser
+  163  su -testuser
+  164  su - testuser
+  165  sudo whoami
+  166  whoami
+  167  sudo usermod -aG sudo testuser
+  168  groups testuser
+  169  su - testuser
+  170  echo "Heelo,I am bhaskar" > notes.txt
+  171  cat notes.txt
+  172  pwd
+  173  ls -l /home/bhaskar/notes.txt
+  174  ls -l /home/bhaskar/devops/notes.txt
+  175  ls
+  176  ls ~/devops
+  177  pwd
+  178  ls
+  179  mkdir pratice 
+  180  ls
+  181  cd devops pratice
+  182  cd  pratice
+  183  touch uday.txt
+  184  ls
+  185  echo "I was learning the devops" > uday.txt
+  186  ls
+  187  cat uday.txt
+  188  echo "I wiil do devops" >> uday.txt
+  189  cat uday.txt
+  190  cp uday.txt backup.txt
+  191  ls
+  192  mv uday.txt backup.txt
+  193  ls
+  194  rm backup.txt
+  195  ls
+  196  mv backup.txt uday_backup.txt
+  197  mv backup.txt uday_backup.tx
+  198  cd .
+  199  cd 
+  200  cd pratice 
+  201  pwd
+  202  touch uday.txt
+  203  ls
+  204  echo "Hello, I am learning devops"
+  205  echo "Hello, I am learning devops" > uday.txt
+  206  cat uday.txt
+  207  echo "I will do devops" >> uday.txt
+  208  cat uday.txt
+  209  ls
+  210  cp uday.txt backup.txt
+  211  ls
+  212  cat uday.txt
+  213  mv backup.txt uday_backup.txt
+  214  ls
+  215  cat uday_backup.txt
+  216  rm uday_backup.txt
+  217  ls
+  218  printf "nmango\"ncherry"\norange\nbanana\n">fruits.txt
+  219  ls
+  220  cat fruits.txt
+  221  printf "nmango\ncherry\norange\nbanana\n">fruits.txt
+  222  printf "mango\napple\nzebra\nbanana\norange\n" > fruits.txt
+  223  printf "mango\napple\nzebra\nbanana\norange\n" > fruits.txt
+  224  cat fruits.txt
+  225  sort -r fruits.txt
+  226  head fruits.txt
+  227  head -n 3 fruits.txt
+  228  tail fruits.txt
+  229  tail -n 2 fruits.txt
+  230  wc -l fruits.txt
+  231  cd .
+  232  ls
+  233  cd ..
+  234  ls
+  235  /
+  236  /home
+  237  ls /home
+  238  ls /etc
+  239  ls /var
+  240  ls /var/log
+  241  ls /tmp
+  242  less
+  243  find . -name uday.txt
+  244  grep "Devops" uday.txt
+  245  cd pratice
+  246  ls
+  247  grep "DevOps" uday.txt
+  248  ls
+  249  grep "devops" uday.txt
+  250  echo "I am Learning Devops" > uday.txt
+  251  cat uday.txt
+  252  cd ~
+  253  nano devops-uday.txt
+  254  cat~/devops-uday.txt
+  255  cat ~/devops-uday.txt 
+  256  pwd
+  257  ls
+  258  cd devops
+  259  ld
+  260  ls
+  261  cat notes.txt
+  262  grep "Linux" notes.txt
+  263  wc -l
+  264  wc -l notes.txt
+  265  head notes.txt
+  266  tail notes.txt
+  267  find . -name "notes.txt"
+  268  grep -R "Linux"
+  269  cd ~/client-project
+  270  cd ~/devops
+  271  pwd
+  272  ls
+  273  ls -a
+  274  cat notes.txt
+  275  cd ..
+  276  pwd
+  277  cat numbers.txt
+  278  cat script.sh
+  279  pwd
+  280  cd devops
+  281  pwd
+  282  touch notes.txt
+  283  ls
+  284  echo "I am learning Linux for Devops" > notes.txt
+  285  cat notes.txt
+  286  cd ~/client-project
+  287  ls -la ~
+  288  cd /mnt/c/Users/bhask/Ubuntu-DevOps/my-first-project
+  289  su - devops
+  290  sudo whoami
+  291  su - Devops
+  292  su -testuser
+  293  s-devops'
+s-devops
+  294  cd /mnt/c/Users/bhask/my-first-project
+  295  ls /mnt/c/Users
+  296  ls /mnt/c/Users/bhask
+  297  cd /mnt/c/Users/bhask/my-first-project
+  298  ls -ld /mnt/c/Users/bhask/my-first-project
+  299  ls -la
+  300  cat README.md
+  301  cat hello.text
+  302  git status
+  303  git log --oneline -5
+  304  history
+  305  history > commands.txt
