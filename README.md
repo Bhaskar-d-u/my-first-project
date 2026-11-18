@@ -6,3 +6,6 @@ Learning GitHub and DevOps
 - Understand CI/CD
 - Build my first DevOps project
 Login feature development
+Login feature completed in feature branch
+Login feature is under development
+Feature branch login update
