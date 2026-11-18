@@ -6,3 +6,4 @@ Learning GitHub and DevOps
 - Understand CI/CD
 - Build my first DevOps project
 Login feature development
+Login feature completed in main branch
